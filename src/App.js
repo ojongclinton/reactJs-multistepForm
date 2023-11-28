@@ -133,7 +133,7 @@ function App() {
                                 <Tooltip
                                   arrow
                                   placement="right"
-                                  title="Sdsdsdsdsd"
+                                  title={indivi.toolTip}
                                 >
                                   <IconButton
                                     style={{ padding: "0px" }}
@@ -155,6 +155,7 @@ function App() {
                             variant="outlined"
                             size="small"
                             id={indivi.name}
+                            placeholder={indivi.label}
                             required={indivi.required}
                             type={indivi.type}
                             name={indivi.name}
